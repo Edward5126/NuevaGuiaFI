@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="LIBS/iconos/style.css".css">
+    <link rel="shortcut icon" href="IMG/Icono.svg" type="image/x-icon">
+    <title>Tu Guía Fi 2.0</title>
+</head>
+<body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v17.0" nonce="qop1FIus"></script>
+    <!-- <header>
+        <div id="HeadDiv1">
+            <span id="Titulo">Tu Guía FI</span>
+            <button>...</button>
+        </div>
+        <div id="HeadDiv2">
+            <button class="BtnCambPag" id="IraNoticias" onclick="Prueba(event,1)">[ I ]</button>
+            <button class="BtnCambPag" id="IraMapa" onclick="Prueba(event,2)">[ I ]</button>
+            <button class="BtnCambPag" id="IraDirectorio" onclick="Prueba(event,3)">[ I ]</button>
+            <button class="BtnCambPag" id="IraFormatos" onclick="Prueba(event,4)">[ I ]</button>
+            <button class="BtnCambPag" id="IraInfo" onclick="Prueba(event,5)">[ I ]</button>
+        </div>
+    </header> -->
+    <nav>
+        <button class="BtnCambPag" id="IraNoticias" onclick="CambiarPag(event,1)" style="color: var(--Institucional2);"><i class="icon-noticias"></i><span>Noticias</span></button>
+        <button class="BtnCambPag" id="IraMapa" onclick="CambiarPag(event,2)"><i class="icon-map"></i><span>Mapa</span></button>
+        <button class="BtnCambPag" id="IraDirectorio" onclick="CambiarPag(event,3)"><i class="icon-menu"></i><span>Lista</span></button>
+        <button class="BtnCambPag" id="IraFormatos" onclick="CambiarPag(event,4)"><i class="icon-docs"></i><span>Docs</span></button>
+        <button class="BtnCambPag" id="IraInfo" onclick="CambiarPag(event,5)">...<span>Más</span></button>
+    </nav>
+    <div id="PopUp">
+        
+    </div>
+    <main>
+        <div class="carrusel">
+            <div class="pagina" id="pagina_1">
+                <div class="Titulo">
+                    <h2><i class="icon-noticias"></i> Noticias</h2>
+                </div>
+                <div class="ContenedorPag">
+                    <div id="SinConexion">
+                        <div>
+                            <img src="IMG/SinConexion.svg" alt="" srcset="">
+                            <span>Conéctate a Internet para ver los <i>feed</i> de noticias de la Facultad de Ingeniería</span>
+                        </div>
+                    </div>
+                    <div class="fb-page" data-href="https://www.facebook.com/ingenieria.uady.mx" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div>
+                    <div class="fb-page" data-href="https://www.facebook.com/FiuadyMifi" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div>    
+                </div>
+                <!-- <img src="https://mapio.net/images-p/6130718.jpg" alt="" style="width: 100%;"> -->
+            </div>
+            <div class="pagina" id="pagina_2">
+                <div class="Titulo">
+                    <h2><i class="icon-map"></i> Mapa</h2>
+                </div>
+                <!-- <div class="fb-page" data-href="https://www.facebook.com/ingenieria.uady.mx" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div> -->
+                <!-- <div class="fb-page" data-href="https://www.facebook.com/FiuadyMifi" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div> -->
+                <img src="IMG/NuevoMapa.svg" alt="" style="width: 100%;">
+            </div>
+            <div class="pagina" id="pagina_3">
+                <div class="Titulo">
+                    <h2><i class="icon-menu"></i> Directorio</h2>
+                    <button onclick="MostrarBusqueda(event)"><i class="icon-search"></i></button>
+                    <div id="Busqueda" class="Oculto">
+                        <input type="text" id="InputFiltro" oninput="Filtrar()">
+                        <button onclick="MostrarBusqueda(event)"><i class="icon-cross"></i></button>
+                    </div>
+                </div>
+                <!-- <div class="fb-page" data-href="https://www.facebook.com/ingenieria.uady.mx" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div> -->
+                <!-- <div class="fb-page" data-href="https://www.facebook.com/FiuadyMifi" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div> -->
+                <!-- <img src="https://mapio.net/images-p/6130718.jpg" alt="" style="width: 100%;"> -->
+                <div class="ContenedorPag" id="ContenedorDirec">
+                    <span>Cargando directorio...</span>
+                </div>
+            </div>
+            <div class="pagina" id="pagina_4">
+                <div class="Titulo">
+                    <h2><i class="icon-docs"></i> Formatos</h2>
+                </div>
+                <!-- <div class="fb-page" data-href="https://www.facebook.com/ingenieria.uady.mx" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div> -->
+                <!-- <div class="fb-page" data-href="https://www.facebook.com/FiuadyMifi" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div> -->
+                <div class="ContenedorPag" id="ContenedorTramites">
+                    <span>Cargando documentación...</span>
+                </div>
+            </div>
+            <div class="pagina" id="pagina_5">
+                <div class="Titulo">
+                    <h2>Información</h2>
+                </div>
+                <!-- <div class="fb-page" data-href="https://www.facebook.com/ingenieria.uady.mx" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div> -->
+                <!-- <div class="fb-page" data-href="https://www.facebook.com/FiuadyMifi" data-tabs="timeline" data-width="" data-height="500" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="false"><blockquote cite="https://www.facebook.com/ingenieria.uady.mx" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ingenieria.uady.mx">Facultad de Ingeniería - UADY</a></blockquote></div> -->
+                <div id="Info">
+                    <div>
+                        <img src="IMG/AppIlus.svg" alt="" srcset="">
+                        <span>Tu Guía FI 2.0</span>
+                        <button>Contacto</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script src="JS/script.js"></script>
+</html>

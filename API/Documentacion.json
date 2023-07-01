@@ -1,0 +1,66 @@
+[
+    {
+        "id":0,
+        "nombre":"Trámite de inscripción",
+        "instrucciones": [
+            "Instrucción 1",
+            "Instrucción 2",
+            "Instrucción 3"
+        ],
+        "documentos": [
+            {
+                "doc":1,
+                "nombre":"Formato 1",
+                "direccion":"DOCS/Formato1.pdf"
+            }
+        ]
+    },
+    {
+        "id":0,
+        "nombre":"Trámite de inscripción",
+        "instrucciones": [
+            "Instrucción 1",
+            "Instrucción 2",
+            "Instrucción 3"
+        ],
+        "documentos": [
+            {
+                "doc":1,
+                "nombre":"Formato 1",
+                "direccion":"DOCS/Formato1.pdf"
+            }
+        ]
+    },
+    {
+        "id":0,
+        "nombre":"Trámite de inscripción",
+        "instrucciones": [
+            "Instrucción 1",
+            "Instrucción 2",
+            "Instrucción 3"
+        ],
+        "documentos": [
+            {
+                "doc":1,
+                "nombre":"Formato 1",
+                "direccion":"DOCS/Formato1.pdf"
+            }
+        ]
+    },
+    {
+        "id":0,
+        "nombre":"Trámite de inscripción",
+        "instrucciones": [
+            "Instrucción 1",
+            "Instrucción 2",
+            "Instrucción 3"
+        ],
+        "documentos": [
+            {
+                "doc":1,
+                "nombre":"Formato 1",
+                "direccion":"DOCS/Formato1.pdf"
+            }
+        ]
+    }
+]

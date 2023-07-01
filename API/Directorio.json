@@ -1,0 +1,194 @@
+[
+    {
+        "id":0,
+        "img": "IMG/Profile.jfif",
+        "titulo":"Estudiante",
+        "nombre":"Eduardo Alberto Chan Cach",
+        "correo":"A22214916@alumnos.uady.mx",
+        "lugar": "NA"
+    },
+    {
+        "id":1,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 1",
+        "correo":"Maestro1@correo.uady.mx",
+        "lugar": "A1"
+    },
+    {
+        "id":2,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 2",
+        "correo":"Maestro2@correo.uady.mx",
+        "lugar": "A2"
+    },
+    {
+        "id":3,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":4,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Asistente 1",
+        "correo":"Asistente1@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":5,
+        "img": "IMG/NoProfilePic.jpg",
+        "titulo":"IM",
+        "nombre":"Maestro 3",
+        "correo":"Maestro3@correo.uady.mx",
+        "lugar": "A4"
+    },
+    {
+        "id":18,
+        "img": "IMG/EmptyPlace.jpg",
+        "titulo":"Aula",
+        "nombre":"Aula Magna",
+        "correo":"NA",
+        "lugar": "I"
+    },
+    {
+        "id":18,
+        "img": "IMG/EmptyPlace.jpg",
+        "titulo":"Aula",
+        "nombre":"Aula Magna",
+        "correo":"NA",
+        "lugar": "I"
+    },
+    {
+        "id":18,
+        "img": "IMG/EmptyPlace.jpg",
+        "titulo":"Aula",
+        "nombre":"Aula Magna",
+        "correo":"NA",
+        "lugar": "I"
+    },
+    {
+        "id":18,
+        "img": "IMG/EmptyPlace.jpg",
+        "titulo":"Aula",
+        "nombre":"Aula Magna",
+        "correo":"NA",
+        "lugar": "I"
+    },
+    {
+        "id":18,
+        "img": "IMG/EmptyPlace.jpg",
+        "titulo":"Aula",
+        "nombre":"Aula Magna",
+        "correo":"NA",
+        "lugar": "I"
+    },
+    {
+        "id":18,
+        "img": "IMG/EmptyPlace.jpg",
+        "titulo":"Aula",
+        "nombre":"Aula Magna",
+        "correo":"NA",
+        "lugar": "I"
+    }
+]
